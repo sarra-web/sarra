@@ -1,0 +1,30 @@
+/*CSS LKOL*/
+body{
+    background-color: rgb(231, 207, 219);
+}
+/*css projet*/
+.d{
+    display: inline-block;
+    background-color: seashell;
+    text-align:center;
+    width:25%;
+    border:1px solid blue;
+}
+.d>p :hover{
+    
+    border: dashed red;
+}
+.d>img{
+    width:100%;
+}
+.d>img:hover{
+    box-shadow:10px 10px 10px gray;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transform:skewY(20deg);
+    font-weight: bold;
+}
+#west{
+    padding: 26px;
+    margin-left: 10px;
+    margin-right:10px;
+}
